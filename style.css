@@ -30,35 +30,43 @@ header{
 	padding-top:25px;
 }
 #about{
-	font-size:20px;
+	font-size:24px;
 	color:#cccccc;
 	position:absolute;
 	top:30px;
 	right:390px;
+	text-decoration:none;
+
 }
 #portfolio{
-	font-size:20px;
+	font-size:24px;
 	color:#cccccc;
 	position:absolute;
 	top:30px;
 	right:250px;
+	text-decoration:none;
 }
 #contact{
-	font-size:20px;
+	font-size:24px;
 	color:#cccccc;
 	position:absolute;
 	top:30px;
 	right:120px;
+	text-decoration:none;
 }
 
 h1{
+	border:5px solid;
+	border-color:#cccccc;
 	background-color:white;
 	color:#4aaaa5;
-	position:fixed;
+	position:absolute;
 	top:92px;
-	width:650px;
+	width:500px;
 	font-size:30px;
-	padding:20px;
+	padding-top:20px;
+	padding-left:10px;
+	margin-bottom:20px; 
 
 }
 
@@ -70,7 +78,7 @@ h1{
 
 p{
 	color:black;
-	font-size:30px;
+	font-size:16px;
 	font-weight:normal;
 	padding:10px;
 }
@@ -79,7 +87,7 @@ aside{
 	color:#4aaaa5;
 	background-color:white;
 	position:fixed;
-	left:900px;
+	left:750px;
 	top:116px;
 	width:260px;
 	height:170px;
@@ -93,31 +101,42 @@ footer{
 	background-color:#666666;
 	text-align:center;
 	color:white;
-	position:absolute;
+	position:fixed;
 	bottom:0px;
 	left:0px;
 	right:0px;
 	height:30px;
-	padding:40px;
+	padding:30px;
+	margin-top:20px;
 }
 #insert_name,#email,#message,#submit{
 	font-size:16px;
-	line-height:.5px;
+	line-height:1%;
+	margin-top:-5px;
 }
 #smith,#example,#blank{
 	color:lightgrey;
 	font-size:16px;
 	border:1px solid;
 	border-color:lightgrey;
-	line-height:.5px;
+	line-height:5%;
+	margin-top:-5px;
 }
 #blank{
-	height:100px;
+	height:80px;
 }
 #submit{
 	background-color:#4aaaa5;
 	color:white;
 	width:48px;
+	margin-bottom:-8px
 }
-
-
+#github{
+	width:30%;
+}
+#linked{
+	width:30%;
+}
+#stack{
+	width:30%;
+}
